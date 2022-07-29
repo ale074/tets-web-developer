@@ -87,3 +87,9 @@ MIT
 
 En el diseño responsivo de la tabla me hubiera gustado cambiar la tabla por una lista de tarjetas
 que mostraran de mejor forma la información.
+
+## Ventajas de usar CSS
+
+- _Más accesibles:_ Los CSS permiten modificar el formato de una página web según sean las necesidades del usuario. Por ejemplo, personas con deficiencias visuales.
+- _Más optimizados:_ El ancho de banda necesario para cargar páginas web con CSS es mucho menor que el resto. La hoja de estilo se almacena en cache y no tiene que descargar la página web una y otra vez. Los CSS, además, reducen más del 50% el ancho de banda y los costes de almacenamiento del sitio. Por lo tanto, estas páginas se cargan mucho más rápido.
+- _Multidispositivo:_ las hojas de estilo permiten configurar la página para diferentes dispositivos, como son móviles, tables, lectores de voz…
