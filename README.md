@@ -8,7 +8,6 @@ para prueba Web Developer de bold.
 
 ## Diseño HTML-CSS
 
-![alt text](./url/to/img.png)
 
 
 ### Requerimientos
@@ -52,17 +51,6 @@ ng serve
 ```
 
 
-## Ejecución de pruebas unitarias
-
-
-`ng test` para ejecutar las pruebas unitarias a través de
- [Karma](https://karma-runner.github.io).
-
-## Ejecución de bruebas end-to-end
-
-Run `ng e2e` 
-
-
 Para entornos de producción...
 
 ```sh
@@ -77,6 +65,19 @@ your preferred browser.
 ```sh
 127.0.0.1:8000
 ```
+
+
+
+## Ejecución de pruebas unitarias
+
+
+`ng test` para ejecutar las pruebas unitarias a través de
+ [Karma](https://karma-runner.github.io).
+
+## Ejecución de bruebas end-to-end
+
+Run `ng e2e` 
+
 
 ## License
 
