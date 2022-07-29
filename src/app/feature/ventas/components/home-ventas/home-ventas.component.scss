@@ -1,0 +1,55 @@
+.section-header {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.section-table {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.table {
+  width: 70%;
+}
+
+.section-header div {
+  padding: 10px;
+}
+
+.div-1 {
+  width: 30%;
+}
+.div-2 {
+  justify-content: center;
+
+  display: flex;
+  width: 40%;
+}
+
+.navigate-bar {
+  width: 80%;
+  height: 90%;
+}
+
+.filter {
+  width: 40%;
+  left: 58%;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .section-header {
+    width: 100%;
+    justify-content: center;
+    display: block;
+  }
+  .div-1 {
+    width: auto;
+  }
+  .div-2 {
+    justify-content: center;
+  
+    display: flex;
+    width: auto;
+  }
+}

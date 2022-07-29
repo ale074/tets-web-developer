@@ -1,0 +1,55 @@
+
+    <div class="section-head">
+        <p>Tus ventas de {{ nav.title }}</p>
+    </div>
+    <table class="table-sales">
+        <thead>
+            <tr>
+                <th class="title-column">
+                    Transacción
+                </th>
+                <th class="title-column">
+                    Fecha y hora
+                </th>
+                <th class="title-column">
+                    Método de pago
+                </th>
+                <th class="title-column">
+                    ID transacción Bold
+                </th>
+                <th class="title-column">
+                    Monto
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="sale" *ngFor="let venta of ventas">
+                <td class="row-item column">
+                    <div class="v-line" [ngStyle]="{'opacity': venta.tipoPago == 2? 0.5 : 1}"></div>
+                    <div class="section-center">
+                        <div class="icon">
+                            <i *ngIf="venta.tipoPago == 2" class="fa-solid fa-link"></i>
+                            <i *ngIf="venta.tipoPago == 1" class="fa-solid fa-calculator"></i>
+
+                        </div>
+                        <div class="transaction">{{ venta.transaccion }}</div>
+                    </div>
+                    
+                </td>
+                <td class="row-item">{{ venta.fecha }}</td>
+                <td class="row-item">
+                    <div class="section-center">
+                        <img width="40" height="25" src="https://www.logo.wine/a/logo/Mastercard/Mastercard-Logo.wine.svg" alt="">
+                        <div class="method">{{ venta.metodo | showOnlyTheLastFour: "*" }}</div>
+                    </div>
+                </td>
+                <td class="row-item">{{ venta.id }}</td>
+                <td class="row-item">
+                    <div  class="monto">{{ venta.monto }}</div>
+                    <div *ngIf="venta.tipoPago == 1" class="description-deduction">Deducción Bold</div>
+                    <div *ngIf="venta.tipoPago == 1" class="deduction">{{ venta.deduccion }}</div>
+                </td>
+            </tr>
+        </tbody>
+        
+    </table>

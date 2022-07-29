@@ -1,0 +1,75 @@
+.section-head {
+  color: #ffffff;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(30deg, #111e6c 10%, #ef434e 200%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+}
+
+.section-head p {
+  font-size: 20px;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+.title-column {
+  width: 20%;
+  height: 50px;
+  color: #969696;
+}
+
+.column {
+  display: flex;
+}
+.v-line {
+  border-left: thick solid #111e6c;
+  position: absolute;
+  height: 8%;
+  margin-right: 30px;
+}
+.table-sales {
+  width: 100%;
+  background-color: #fff;
+}
+.section-center {
+  margin-left: 12%;
+  display: flex;
+  color: #111e6c;
+}
+.icon {
+  margin-right: 8.4px;
+  width: 10%;
+}
+.row-item {
+  text-align: center;
+  color: #969696;
+  margin-bottom: 40px;
+}
+
+.deduction {
+  color: #ef434e;
+}
+
+.monto {
+  color: #111e6c;
+}
+
+.description-deduction {
+  position: relative;
+  left: 10%;
+}
+
+.sale {
+  padding: 10%;
+}
+
+@media (max-width: 600px) {
+  .section-head {
+    width: 40%;
+  }
+  .table-sales {
+    width: 40%;
+  }
+}

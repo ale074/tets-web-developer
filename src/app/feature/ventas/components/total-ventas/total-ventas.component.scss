@@ -1,0 +1,48 @@
+.card-total-ventas {
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  border: none;
+}
+
+.head-card {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  background: linear-gradient(30deg, #111e6c 1%, #ef434e 130%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+}
+
+.head-card p {
+  position: relative;
+  top: 35%;
+  color: #fff;
+  font-size: 20px;
+}
+
+.body-card {
+  text-align: center;
+  padding: 10%;
+}
+
+.total-amount {
+  color: #ef434e;
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .head-card {
+    height: 50%;
+  }
+  .head-card p {
+    position: relative;
+    top: 15%;
+  }
+  .total-amount {
+    color: #ef434e;
+    font-size: 19px;
+  }
+}

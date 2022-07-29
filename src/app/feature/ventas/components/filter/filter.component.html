@@ -1,0 +1,22 @@
+<div class="filter">
+    <div class="action" (click)="filter = !filter">
+        <p>FILTRAR</p>
+    </div>
+    <div class="options" *ngIf="filter">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Cobro con datáfono
+            </label><br>
+            <label>
+                <input type="checkbox"> Cobros con link de pago
+            </label><br>
+            <label>
+                <input type="checkbox"> Ver todos
+            </label>
+            
+        </div>
+        <button>
+            Aplicar
+        </button>
+    </div>
+</div>
